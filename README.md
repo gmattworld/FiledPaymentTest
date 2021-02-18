@@ -1,4 +1,4 @@
-# FiledPaymentTest
+# Filed Payment Test
 
 Coding exercise:
 Write a WebAPI with only 1 method called “ProcessPayment” that receives a request like this
