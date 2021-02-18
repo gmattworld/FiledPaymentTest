@@ -1,0 +1,14 @@
+C:\Dev\Jobs\FiledPaymentTest.Repository\bin\Debug\netcoreapp3.1\FiledPaymentTest.Repository.deps.json
+C:\Dev\Jobs\FiledPaymentTest.Repository\bin\Debug\netcoreapp3.1\FiledPaymentTest.Repository.dll
+C:\Dev\Jobs\FiledPaymentTest.Repository\bin\Debug\netcoreapp3.1\FiledPaymentTest.Repository.pdb
+C:\Dev\Jobs\FiledPaymentTest.Repository\bin\Debug\netcoreapp3.1\FiledPaymentTest.Core.dll
+C:\Dev\Jobs\FiledPaymentTest.Repository\bin\Debug\netcoreapp3.1\FiledPaymentTest.Service.dll
+C:\Dev\Jobs\FiledPaymentTest.Repository\bin\Debug\netcoreapp3.1\FiledPaymentTest.Core.pdb
+C:\Dev\Jobs\FiledPaymentTest.Repository\bin\Debug\netcoreapp3.1\FiledPaymentTest.Service.pdb
+C:\Dev\Jobs\FiledPaymentTest.Repository\obj\Debug\netcoreapp3.1\FiledPaymentTest.Repository.csprojAssemblyReference.cache
+C:\Dev\Jobs\FiledPaymentTest.Repository\obj\Debug\netcoreapp3.1\FiledPaymentTest.Repository.AssemblyInfoInputs.cache
+C:\Dev\Jobs\FiledPaymentTest.Repository\obj\Debug\netcoreapp3.1\FiledPaymentTest.Repository.AssemblyInfo.cs
+C:\Dev\Jobs\FiledPaymentTest.Repository\obj\Debug\netcoreapp3.1\FiledPaymentTest.Repository.csproj.CoreCompileInputs.cache
+C:\Dev\Jobs\FiledPaymentTest.Repository\obj\Debug\netcoreapp3.1\FiledPaymentTest.Repository.csproj.CopyComplete
+C:\Dev\Jobs\FiledPaymentTest.Repository\obj\Debug\netcoreapp3.1\FiledPaymentTest.Repository.dll
+C:\Dev\Jobs\FiledPaymentTest.Repository\obj\Debug\netcoreapp3.1\FiledPaymentTest.Repository.pdb

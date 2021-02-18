@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\Jobs\\FiledPaymentTest.Repository\\FiledPaymentTest.Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\Jobs\\FiledPaymentTest.Core\\FiledPaymentTest.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\Jobs\\FiledPaymentTest.Core\\FiledPaymentTest.Core.csproj",
+        "projectName": "FiledPaymentTest.Core",
+        "projectPath": "C:\\Dev\\Jobs\\FiledPaymentTest.Core\\FiledPaymentTest.Core.csproj",
+        "packagesPath": "C:\\Users\\gbeng\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Jobs\\FiledPaymentTest.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gbeng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\Jobs\\FiledPaymentTest.Repository\\FiledPaymentTest.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\Jobs\\FiledPaymentTest.Repository\\FiledPaymentTest.Repository.csproj",
+        "projectName": "FiledPaymentTest.Repository",
+        "projectPath": "C:\\Dev\\Jobs\\FiledPaymentTest.Repository\\FiledPaymentTest.Repository.csproj",
+        "packagesPath": "C:\\Users\\gbeng\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Jobs\\FiledPaymentTest.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gbeng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Dev\\Jobs\\FiledPaymentTest.Core\\FiledPaymentTest.Core.csproj": {
+                "projectPath": "C:\\Dev\\Jobs\\FiledPaymentTest.Core\\FiledPaymentTest.Core.csproj"
+              },
+              "C:\\Dev\\Jobs\\FiledPaymentTest.Service\\FiledPaymentTest.Service.csproj": {
+                "projectPath": "C:\\Dev\\Jobs\\FiledPaymentTest.Service\\FiledPaymentTest.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\Jobs\\FiledPaymentTest.Service\\FiledPaymentTest.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\Jobs\\FiledPaymentTest.Service\\FiledPaymentTest.Service.csproj",
+        "projectName": "FiledPaymentTest.Service",
+        "projectPath": "C:\\Dev\\Jobs\\FiledPaymentTest.Service\\FiledPaymentTest.Service.csproj",
+        "packagesPath": "C:\\Users\\gbeng\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Jobs\\FiledPaymentTest.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gbeng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

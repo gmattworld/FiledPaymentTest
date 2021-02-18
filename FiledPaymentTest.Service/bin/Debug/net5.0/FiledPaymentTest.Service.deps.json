@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FiledPaymentTest.Service/1.0.0": {
+        "runtime": {
+          "FiledPaymentTest.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FiledPaymentTest.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
