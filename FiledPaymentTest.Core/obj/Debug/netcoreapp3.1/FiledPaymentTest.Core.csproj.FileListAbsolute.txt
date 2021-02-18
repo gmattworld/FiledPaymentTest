@@ -1,9 +1,0 @@
-C:\Dev\Jobs\FiledPaymentTest.Core\bin\Debug\netcoreapp3.1\FiledPaymentTest.Core.deps.json
-C:\Dev\Jobs\FiledPaymentTest.Core\bin\Debug\netcoreapp3.1\FiledPaymentTest.Core.dll
-C:\Dev\Jobs\FiledPaymentTest.Core\bin\Debug\netcoreapp3.1\FiledPaymentTest.Core.pdb
-C:\Dev\Jobs\FiledPaymentTest.Core\obj\Debug\netcoreapp3.1\FiledPaymentTest.Core.csprojAssemblyReference.cache
-C:\Dev\Jobs\FiledPaymentTest.Core\obj\Debug\netcoreapp3.1\FiledPaymentTest.Core.AssemblyInfoInputs.cache
-C:\Dev\Jobs\FiledPaymentTest.Core\obj\Debug\netcoreapp3.1\FiledPaymentTest.Core.AssemblyInfo.cs
-C:\Dev\Jobs\FiledPaymentTest.Core\obj\Debug\netcoreapp3.1\FiledPaymentTest.Core.csproj.CoreCompileInputs.cache
-C:\Dev\Jobs\FiledPaymentTest.Core\obj\Debug\netcoreapp3.1\FiledPaymentTest.Core.dll
-C:\Dev\Jobs\FiledPaymentTest.Core\obj\Debug\netcoreapp3.1\FiledPaymentTest.Core.pdb
