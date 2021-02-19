@@ -35,7 +35,7 @@ namespace FiledPaymentTest.Workers
                 }
                 // Payment process happens here
                 
-                await Task.Delay((3 * 60000), stoppingToken); //runs every 3 minutes
+                await Task.Delay((1 * 60 * 1000), stoppingToken); //runs every 1 minutes
             }
         }
     }
