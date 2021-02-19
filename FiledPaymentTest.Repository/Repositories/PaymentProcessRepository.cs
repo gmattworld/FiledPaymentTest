@@ -45,13 +45,13 @@ namespace FiledPaymentTest.Repository.Repositories
                     if (_paymentFactory.PremiumPayments.MakePayment())
                     {
                         _payment.Status = PaymentStatus.PROCESSED;
-                        _payment.Tries += _payment.Tries;
+                        _payment.Tries = _payment.Tries + 1;
                         _ = await this.UpdateAsync(_payment);
                     }
                     else
                     {
                         _payment.Status = PaymentStatus.PENDING;
-                        _payment.Tries += _payment.Tries;
+                        _payment.Tries = _payment.Tries + 1;
 
                         if (_payment.Tries == 3)
                         {
@@ -59,7 +59,7 @@ namespace FiledPaymentTest.Repository.Repositories
                         }
                         _ = await this.UpdateAsync(_payment);
                     }
-
+                    _ = _context.SaveChangesAsync();
                     continue;
                 }
 
@@ -69,16 +69,16 @@ namespace FiledPaymentTest.Repository.Repositories
                     if (_paymentFactory.CheapPayments.MakePayment())
                     {
                         _payment.Status = PaymentStatus.PROCESSED;
-                        _payment.Tries += _payment.Tries;
+                        _payment.Tries = _payment.Tries + 1;
                         _ = await this.UpdateAsync(_payment);
                     }
                     else
                     {
                         _payment.Status = PaymentStatus.FAILED;
-                        _payment.Tries += _payment.Tries;
+                        _payment.Tries = _payment.Tries + 1;
                         _ = await this.UpdateAsync(_payment);
                     }
-
+                    _ = _context.SaveChangesAsync();
                     continue;
                 }
 
@@ -88,23 +88,23 @@ namespace FiledPaymentTest.Repository.Repositories
                     if (_paymentFactory.ExpensivePayments.CheckAvailability() && _paymentFactory.ExpensivePayments.MakePayment())
                     {
                         _payment.Status = PaymentStatus.PROCESSED;
-                        _payment.Tries += _payment.Tries;
+                        _payment.Tries = _payment.Tries + 1;
                         _ = await this.UpdateAsync(_payment);
                     }
                     // Try ICheap Payment Gateway
                     else if (_paymentFactory.CheapPayments.MakePayment())
                     {
                         _payment.Status = PaymentStatus.PROCESSED;
-                        _payment.Tries += _payment.Tries;
+                        _payment.Tries = _payment.Tries + 1;
                         _ = await this.UpdateAsync(_payment);
                     }
                     else
                     {
                         _payment.Status = PaymentStatus.FAILED;
-                        _payment.Tries += _payment.Tries;
+                        _payment.Tries = _payment.Tries + 1;
                         _ = await this.UpdateAsync(_payment);
                     }
-
+                    _ = _context.SaveChangesAsync();
                     continue;
                 }                
             }

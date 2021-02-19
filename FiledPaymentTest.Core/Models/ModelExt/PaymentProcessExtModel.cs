@@ -6,5 +6,6 @@ namespace FiledPaymentTest.Core.Models.ModelExt
     {
         public string Id { get; set; }
         public PaymentStatus Status { get; set; }
+        public int Tries { get; set; }
     }
 }

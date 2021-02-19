@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using FiledPaymentTest.Core.Entities;
@@ -30,6 +31,25 @@ namespace FiledPaymentTest.Controllers
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
+
+        [HttpGet]
+        public async Task<ActionResult<List<PaymentProcessExtModel>>> GetAsync()
+        {
+            List<PaymentProcessExtModel> _DTO = null;
+
+            try
+            {
+                IEnumerable<PaymentProcess> _payments = await _unitOfWork.PaymentProcesses.GetAllAsync();
+                _DTO = _mapper.Map<List<PaymentProcessExtModel>>(_payments);
+
+                return Ok(_DTO);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
 
 
         // POST: api/PaymentProcesses
@@ -64,9 +84,9 @@ namespace FiledPaymentTest.Controllers
                 return Ok(_paymentProcess);
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError);
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
 

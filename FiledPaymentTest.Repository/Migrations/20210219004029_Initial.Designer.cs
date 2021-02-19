@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FiledPaymentTest.Repository.Migrations
 {
     [DbContext(typeof(FPTDBContext))]
-    [Migration("20210218171908_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20210219004029_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

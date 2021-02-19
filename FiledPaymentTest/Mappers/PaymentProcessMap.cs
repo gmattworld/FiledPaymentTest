@@ -2,7 +2,7 @@
 using FiledPaymentTest.Core.Models;
 using FiledPaymentTest.Core.Models.ModelExt;
 
-namespace FiledPaymentTest.Core.Mappers
+namespace FiledPaymentTest.Mappers
 {
     public class PaymentProcessMap : AutoMapper.Profile
     {
